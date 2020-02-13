@@ -1,0 +1,146 @@
+.haut{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.centre{
+    text-align: center;
+}
+.centre1{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.logogoogle{
+    padding-top: 200px;
+    padding-bottom: 25px;
+}
+#google{
+    width: 272px;
+    height: 92px;
+}
+.bas{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.bas2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    height: 40px;
+    padding-top: 20px;
+}
+.bas1{
+    height: 40px;
+    padding-top: 20px;
+    border-bottom: 2px solid #ebebeb;
+    border-top: 2px solid #ebebeb;
+    color: #797979;
+}
+.bloc1{
+    display: flex;
+    justify-content: flex-start;
+}
+.bloc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.logocarreau{
+    width: 25px;
+    padding-right: 10px;
+}
+.mic{
+    width: 20px;
+    margin-left: -40px;
+    right: 35px;
+    top: 5px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #F4F4F4;
+    border:#797979 1px  ;
+}
+.recherche input{
+    width: 500px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow:6px 6px 6px rgb(196, 191, 191);
+}
+.gmail{
+    padding-right: 10px;
+    
+}
+.image{
+    padding-right: 10px;
+}
+.signin{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    background-color: #4585f5;
+    border-radius: 2px;
+    text-align: center;
+    text-justify: auto;
+}
+span{
+    width: auto;
+    padding-left: 20px;
+}
+.foot{
+    text-decoration: none;
+    color: #797979;
+}
+#search{
+    border: 1px solid #c4c4c4;
+}
+a{
+    text-decoration: none;
+}
+.lien{
+    color: black;
+}
+.liens{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+@media all and (min-width: 320px) and (max-width: 375px){
+    .recherche input{
+        width: 200px;
+        height: 30px;
+        padding-top: 10px;
+        border-radius: 20px;
+        box-shadow:6px 6px 6px rgb(196, 191, 191);
+    }
+}
+@media all and (min-width: 375px) and (max-width: 768px){
+    .recherche input{
+        width: 300px;
+        height: 30px;
+        padding-top: 10px;
+        border-radius: 20px;
+        box-shadow:6px 6px 6px rgb(196, 191, 191);
+    }
+}
+@media all and (min-width: 100px) and (max-width: 320px){
+    .recherche input{
+        width: auto;
+        height: 30px;
+        padding-top: 10px;
+        border-radius: 20px;
+        box-shadow:6px 6px 6px rgb(196, 191, 191);
+    }
+}
